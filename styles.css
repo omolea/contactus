@@ -22,7 +22,13 @@ h1 {
   width: auto;
 }
 
+.home-grid{
+  padding-left: 2em;
+  
+}
+
 .home-right-img{
   
+  float:right;
   
 }
