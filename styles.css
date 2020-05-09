@@ -31,13 +31,9 @@ h1 {
 }
 
 .home-right-img{
+ float: right;    
+ margin: 0 0 0 15px; 
   
-  float:right;
   
 }
 
-.home-right-img3{
-  
-  float:left;
-  
-}
