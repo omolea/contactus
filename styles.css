@@ -23,12 +23,21 @@ h1 {
 }
 
 .home-grid{
-  padding-left: 2em;
+  padding-top: 3em;
+  padding-right:3em;
+  padding-left: 3em;
+  padding-down:3em;
   
 }
 
 .home-right-img{
   
   float:right;
+  
+}
+
+.home-right-img3{
+  
+  float:left;
   
 }
