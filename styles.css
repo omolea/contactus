@@ -1,6 +1,25 @@
+body {
+       background-color: #396e94;
+}
 
-nav .nav-link {
-    padding-right: 1.5rem;
+
+
+.content{
+  max-width: 960px;
+  
+  
+}
+
+.nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    color: #ee1010;
+  padding-right: 1.5rem;
     padding-left: 1.5rem;
 }
 
@@ -11,16 +30,9 @@ h1 {
 h2 {
     background-color: 4d4d4d;
 }   
-
-.nav {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-}
+nav a {
+    color: #ee1010;
+}    
 
 .banner-box{
   
@@ -48,7 +60,7 @@ h2 {
   
 }
 
-.home-headline-2{
-  
+.home-paragraph-3{
+  text-align: center;
   
 }
