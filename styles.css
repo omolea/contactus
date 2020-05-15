@@ -52,10 +52,18 @@ nav a {
   
 }
 
+.paragraph{
+  float: left;
+  width: 500px;
+  border: 0px solid #73AD21;
+  padding: 10px;
+}
 
-
-.clearfix {
-  overflow: auto;
+.home-right-img{
+  float: right;
+  width: 500px;
+  border: 0px solid #73AD21;
+  padding: 10px;
 }
 
 .home-paragraph-3{
