@@ -29,7 +29,7 @@ h1 {
 
 h2 {
     background-color: 4d4d4d;
-}   
+    
 nav a {
     color: #ee1010;
 }    
@@ -59,12 +59,7 @@ nav a {
   padding: 10px;
 }
 
-.home-right-img{
-  float: right;
-  width: 500px;
-  border: 0px solid #73AD21;
-  padding: 10px;
-}
+
 
 .home-paragraph-3{
   text-align: center;
