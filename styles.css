@@ -1,5 +1,5 @@
 body {
-       background-color: #396e94;
+       background-color: #;
 }
 
 
@@ -54,10 +54,8 @@ nav a {
 
 
 
-.home-headline-1{
-  
-  
-  
+.clearfix {
+  overflow: auto;
 }
 
 .home-paragraph-3{
