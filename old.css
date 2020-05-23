@@ -43,13 +43,6 @@ h2 {
   margin-bottom:10px;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-color:orange;
-}
-
-
-.img {
-  width: 400px;
-  height:300px;
 }
   
   .home-paragraph-3 {
@@ -61,7 +54,18 @@ h2 {
 .home-headline-2{
   margin
 }
+  p.home-paragraph-2{
+  
+  float: left;
+  width: 500px;
+  border: 0px solid #73AD21;
+  padding: 10px;
+}
+
     
+
+  
+
 .banner-box{
   
   background-position: center;
