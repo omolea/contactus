@@ -16,6 +16,21 @@ body {
    float: right;
     
 }
+.home{
+  margin-top:10px;
+  margin-right:5px;
+  margin-left:5px;
+  margin-bottom:10px;
+  padding-top: 3em;
+  padding-right:3em;
+  padding-left: 3em;
+  padding-down:3em;
+  font-size:1.1em;
+  
+}
+.home-headline-3{
+  float:center;
+}
 
 h1 {
   color: fuchsia;
@@ -28,11 +43,18 @@ h2 {
   margin-bottom:10px;
   padding-top: 10px;
   padding-bottom: 10px;
-    
-nav a {
-    color: #ee1010;
-}    
   
+  
+  p.home-paragraph-2{
+  
+  float: left;
+  width: 500px;
+  border: 0px solid #73AD21;
+  padding: 10px;
+}
+
+    
+
   
 
 .banner-box{
@@ -45,25 +67,7 @@ nav a {
   width: auto;
 }
 
-.home{
-  margin-top:10px;
-  margin-right:10px;
-  margin-left:1000px;
-  margin-bottom:10px;
-  padding-top: 3em;
-  padding-right:3em;
-  padding-left: 3em;
-  padding-down:3em;
-  background-color:red;
-  
-}
 
-p.home-paragraph-2{
-  font-size:1.1em;
-  float: left;
-  width: 500px;
-  border: 0px solid #73AD21;
-  padding: 10px;
-}
+
 
 
