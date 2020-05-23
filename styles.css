@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+
 body {
        background-color: #;
 }
@@ -25,11 +27,12 @@ body {
 
 h1 {
   color: fuchsia;
+  padding-top: 10px
 }
 
 h2 {
-    background-color: silver;
-  padding: 17px;
+    background-color:;
+  padding-top: 17px;
     
 nav a {
     color: #ee1010;
@@ -53,7 +56,8 @@ nav a {
   
 }
 
-.paragraph{
+p{
+  font-size:1.1em;
   float: left;
   width: 500px;
   border: 0px solid #73AD21;
