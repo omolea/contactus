@@ -31,12 +31,19 @@ h1 {
 }
 
 h2 {
-    background-color:;
+    background-color:orange;
+  margin-top:10px;
   padding-top: 17px;
     
 nav a {
     color: #ee1010;
 }    
+  
+  .home-paragraph-2{
+    font-size:1.1em;
+    
+    
+  }
 
 .banner-box{
   
