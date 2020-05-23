@@ -12,7 +12,8 @@ body {
   
 }
 
-.navbar{
+.navbar-nav{
+   float: right;
     
 }
 
@@ -32,11 +33,7 @@ nav a {
     color: #ee1010;
 }    
   
-  .home-paragraph-2{
-    font-size:1.1em;
-    
-    
-  }
+  
 
 .banner-box{
   
@@ -48,15 +45,20 @@ nav a {
   width: auto;
 }
 
-.home-grid{
+.home{
+  margin-top:10px;
+  margin-right:10px;
+  margin-left:1000px;
+  margin-bottom:10px;
   padding-top: 3em;
   padding-right:3em;
   padding-left: 3em;
   padding-down:3em;
+  background-color:red;
   
 }
 
-p{
+p.home-paragraph-2{
   font-size:1.1em;
   float: left;
   width: 500px;
@@ -65,8 +67,3 @@ p{
 }
 
 
-
-.home-paragraph-3{
-  text-align: center;
-  
-}
