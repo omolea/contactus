@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
 
 body {
        background-color: #;
@@ -39,11 +39,15 @@ h1 {
 
 h2 {
   
-  margin-top:15px;
+  margin-top:10px;
   margin-bottom:10px;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-color:orange;
+  background-color:#E7C24F;
+}
+h2{
+  
+  
 }
 
 
@@ -71,7 +75,15 @@ h2 {
   height: 100%;
   width: auto;
 }
+.foot{
+  
+  
+  margin-right:5px;
+  margin-left:5px;
+  padding-right:3em;
+  padding-left: 3em;
 
+}
 
 
 
