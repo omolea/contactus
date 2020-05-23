@@ -22,7 +22,8 @@ body {
     list-style: none;
     color: #ee1010;
   padding-right: 1.5rem;
-    padding-left: 1.5rem;
+    padding-left: .5rem;
+  float: right;
 }
 
 h1 {
@@ -32,8 +33,10 @@ h1 {
 
 h2 {
     background-color:orange;
-  margin-top:10px;
-  padding-top: 17px;
+  margin-top:15px;
+  margin-bottom:10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
     
 nav a {
     color: #ee1010;
