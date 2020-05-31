@@ -166,12 +166,16 @@
        grid-row: 3 /  9; 
        z-index: 1;
        font-size: 14px;
+      padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
       
     }
   .yellow5 span {
        margin-left: 200px;
        display: flex;
        text-align: left;
+    
     }
   
     .blue5 {
