@@ -61,6 +61,17 @@ img {
     max-width: 100%;
 } 
 
+
+.home-right-img{
+	width: 420px;
+	height: 315px;
+	padding-right: 20px;
+	padding-top: 20px;
+	float: right;
+	position: relative;
+}
+
+
 .home-left-img,
 .home-right-img {
     border: 1px solid #ccc;
