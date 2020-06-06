@@ -145,6 +145,18 @@ h2 {
 
 }
 
+.copyright{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 14px;
+	color:aliceblue;
+	float: left;
+	padding-top: 18px;
+	padding-left: 6px;
 
+.social{
+	float: right;
+	margin-top: 5px;
+	margin-right: 5px;
+}
 
 
