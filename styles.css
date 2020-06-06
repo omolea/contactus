@@ -14,6 +14,8 @@ body {
 
 .navbar-nav{
    float: right;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(3em, 1fr));     
     
 }
 .home{
