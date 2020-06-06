@@ -59,6 +59,16 @@ img {
 }
 
 
+.home-left-img{
+	width: 420px;
+	height: 315px;
+	padding-right: 20px;
+	padding-top: 20px;
+	float: left;
+	position: relative;
+}
+
+
 .home-left-img,
 .home-right-img {
     border: 1px solid #ccc;
@@ -103,9 +113,13 @@ h2 {
 }
   
   .home-paragraph-3 {
-    display: block;
-    text-align: center;
-    line-height: 1.5em;
+    width: 940px;
+	height: 150px;
+	background-color: rgba(209, 211, 178, 0.3);
+	position: relative;
+	margin-top: 5px;
+	padding-top: 5px;
+	text-align: center;
 }
   
 .home-headline-2{
