@@ -4,7 +4,10 @@ body {
        background-color: #;
 }
 
-
+/*header {
+    display: grid;
+    grid-template-columns: 110px auto; */     
+}
 
 .content{
   max-width: 960px;
@@ -13,11 +16,28 @@ body {
 }
 
 .navbar-nav{
-   float: right;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(3em, 1fr));     
+ 
+  display: right;
+  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));  
+      
     
 }
+
+.banner-box {
+    width: 100%;
+}     
+
+
+.home-headline-1 {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+} 
+
+
+img {
+    max-width: 100%;
+}      
+
 .home{
   margin-top:10px;
   margin-right:5px;
