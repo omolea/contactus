@@ -19,9 +19,9 @@ body {
     
 }
 
-/*.banner-box {
+ {
     width: 100%;
-} */
+} 
 
 .banner-box {
     display: grid;
