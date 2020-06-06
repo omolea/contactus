@@ -5,11 +5,11 @@ body {
 }
 
 
-.content{
+/*.content{
   max-width: 960px;
   
   
-}
+}*/
 
 .navbar-nav{
  
@@ -19,19 +19,6 @@ body {
     
 }
 
- {
-    width: 100%;
-} 
-
-.banner-box {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-    
-.banner-box img {
-    grid-column: 1 / -1; /* the -1 is just a fancy way to say "span all the columns" */
-    grid-row: 1;
-}
     
 .action {
     grid-column: 1;
@@ -80,24 +67,19 @@ img {
 }
 
 .home-grid{
-  margin-top:10px;
-  margin-right:5px;
-  margin-left:5px;
-  margin-bottom:10px;
-  padding-top: 3em;
-  padding-right:3em;
-  padding-left: 3em;
-  padding-down:3em;
-  font-size:1.1em;
-  
+	width: 420px;
+	height: 315px;
+	padding-left: 20px;
+	padding-top: 20px;
+	float: left;
 }
 .home-headline-3{
   float:center;
 }
 
 h1 {
-  color: fuchsia;
-  padding-top: 10px
+  
+  padding-top: 10px;
 }
 
 h2 {
@@ -105,18 +87,14 @@ h2 {
     border-bottom: 5px double;
 }
 
-h2 {
+/*h2 {
   
   margin-top:10px;
   margin-bottom:10px;
   padding-top: 10px;
   padding-bottom: 10px;
   background-color:#E7C24F;
-}
-h2{
-  
-  
-}
+}*/
 
 
 .img {
