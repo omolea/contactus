@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
-
-
-@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
 
 * {
     box-sizing: border-box;
@@ -23,17 +21,17 @@ header {
   margin: 0;
 }
 
-a:hover { color: red; }
+a:hover { color: black; }
 
 nav a:hover {
-background-color: orange;
+background-color: #1099c1;
 }
 
 .logo-box {
         background-color: white;
         border-radius: 100px 100px 0 0 ;   
         padding: 0.75em;
-        border: 3px solid #78C5D7;
+        border: 3px solid #1a9a84;
         
     }
 
@@ -67,8 +65,8 @@ background-color: orange;
 
 
 body {
-  background-color: #EAF4E1;
-  font-family: "Fredoka One";
+  background-color: #f2f2f2;
+  font-family: "Merriweather", serif;
   font-size: 1.3em;
 }
 
@@ -158,6 +156,8 @@ p {
 h1,h2,h3,h4,h5,h6 {
   color: #78c4d7;
   margin-bottom: 1em;
+  font-family: "Merriweather", serif;
+  font-size: 32px;
   
 }
 
@@ -192,7 +192,7 @@ footer {
 }
 
 
-/* river page adjustments */
+
 .river-banner-image {
   width: 100%;
 }
@@ -219,4 +219,3 @@ footer {
   .home-grid, nav ul, .banner-box {
     display: block;
 }
-/* end of media query */ 
