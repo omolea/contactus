@@ -81,6 +81,9 @@ nav a {
     padding: 1em;
 } 
 
+
+
+
 .content {
  max-width: 960px;
   margin: 0 auto;
@@ -154,7 +157,7 @@ p {
 /* Headline Properties */
 
 h1,h2,h3,h4,h5,h6 {
-  color: #78c4d7;
+  color: black;
   margin-bottom: 1em;
   font-family: "Merriweather", serif;
   font-size: 32px;
