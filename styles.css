@@ -225,3 +225,21 @@ footer {
   .home-grid, nav ul, .banner-box {
     display: block;
 }
+  
+  #contactInner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.contactLeft {
+    grid-column: 1/2;
+    background: #f5eeee;
+    padding: 10px;
+}
+
+.contactRight {
+    grid-column: 2/-1;
+	padding:15px 20px;
+	background: whitesmoke;
+}
