@@ -1,110 +1,133 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Whitewater Rafting Vacations | Dry Oar Boating | Home</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="/styles.css" />
-  </head>
 
-  <body>
-    <div class="content">
-      <header>
-        <div class="logo-box">
-          <img
-            src="https://brothert.net/dryoar/images/dryoarlogo.png"
-            alt="Dry Oar boating logo"
-          />
-        </div>
-        <!-- navigation here -->
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="rivers.html">Rivers</a></li>
-            <li><a href="faqs.html">FAQ</a></li>
-            <li><a href="index.html">Rates/Dates</a></li>
-            <li><a href="contact.html">Contact us</a></li>
-          </ul>
-        </nav>
-      </header>
-      <main>
-        <div class="banner-box">
-          <img
-            class="banner-box"
-            src="https://cdn.glitch.com/5b5617f8-7e49-4c42-88bb-86cc6c7d84d8%2Fperson-on-a-bridge-near-a-lake-747964.jpg?v=1589027844206"
-            alt="Banner Image"
-          />
-          <div class="action">
-            <h3>Plan your next adventure with us!</h3>
-            <button>Contact Us</button>
-          </div>
-        </div>
-        <div class="home-grid">
-          <h2 class="home-headline-1">We run rivers to relax</h2>
-          <p class="home-paragraph-1">
-            We believe that there is nothing like a river trip for relaxing.
-            That is why we subscribe to the dry oar philosophy of boating.
-            Keeping your oars dry for us means taking time to look around and
-            notice the beauty that surrounds the rivers we love.
-          </p>
-          <img
-            class="home-right-img"
-            src="https://brothert.net/dryoar/images/river-evening.jpg"
-            alt="peaceful evening shot of a river"
-          />
+<head>
+    <title>Contact Us </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-          <h2 class="home-headline-2">We run whitewater for the rush</h2>
-          <p class="home-paragraph-2">
-            That doesn't mean we don't also like rapids. Opposites in all things
-            after all. We believe that that tenseness that comes when you are
-            looking down the tongue of a big string of waves makes you
-            appreciate the calm beautiful water that always follows even more.
-          </p>
-          <img
-            class="home-left-img"
-            src="https://byui-cit.github.io/wdd130/resources/images/salmon-boat-beach.jpg"
-            alt="Two Rafts on Shore"
-          />
-          <section class="home-paragraph-3">
-            <h2 class="home-headline-3">Come run with us!</h2>
-            <p>
-              We invite you to come relax with us on one of the amazing rivers
-              we visit. Check out our trips and let us know which one best suits
-              you. We're waiting to hear from you!
-            </p>
-          </section>
-        </div>
-      </main>
-      <footer>
-        <p>&copy; 2023 Dry Oar by Alex Omole</p>
-        <div class="social">
-          <a href="http://www.facebook.com" target="_blank">
-            <img
-              src="https://byui-cit.github.io/wdd130/images/icons/color/facebook.png"
-              alt="Facebook icon"
-          /></a>
-          <a href="http://www.google.com" target="_blank">
-            <img
-              src="https://byui-cit.github.io/wdd130/images/icons/color/googleplus.png"
-              alt="Google icon"
-          /></a>
-          <a href="http://www.instagram.com" target="_blank">
-            <img
-              src="https://byui-cit.github.io/wdd130/images/icons/color/instagram.png"
-              alt="Instagram icon"
-          /></a>
-        </div>
-      </footer>
-    </div>
+    
+   <style>
+    form {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 400px;
+  /* Form outline */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  /* Uniform size & alignment */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input,
+textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+  /* Uniform text field size */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* Match form field borders */
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  /* Additional highlight for focused elements */
+  border-color: #000;
+}
+
+textarea {
+  /* Align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* Provide space to type some text */
+  height: 5em;
+}
+
+.button {
+  /* Align buttons with the text fields */
+  padding-left: 90px; /* same size as the label elements */
+}
+
+button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+  margin-left: 0.5em;
+}
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+   </style>
+    </header>
+    <main>
+      <div id="feedback"></div>
+
+      <form action="/my-handling-form-page" method="post">
+       
+        <ul>
+          <li>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name" />
+          </li>
+          <li>
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" name="user_email" />
+          </li>
+          <li>
+            <label for="msg">Message:</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </li>
+        <li class="button">
+          <button type="submit">Send your message</button>
+        </li>
+      </ul>
+    
+      </form>
+  </main>
+  <script>
+    // get the feedback div element so we can do something with it.
+    const feedbackElement = document.getElementById('feedback');
+    // get the form so we can read what was entered in it.
+    const formElement = document.forms[0];
+    // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+    formElement.addEventListener('submit', function(e) {
+        // stop the form from doing the default action.
+        e.preventDefault();
+        // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+        feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+        // make the feedback element visible.
+        feedbackElement.style.display = "block";
+        // add a class to move everything down so our message doesn't cover it.
+        document.body.classList.toggle('moveDown');
+    });
+</script>
   </body>
 </html>
